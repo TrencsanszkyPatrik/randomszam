@@ -1,0 +1,90 @@
+body {
+    background-color: #CEC3B8;
+}
+
+.egesz {
+    width: 90%;
+    height: 600px;
+    background-color: #5E503F;
+    border-radius: 20px;
+}
+
+.egesz .fejlec {
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 85px;
+    line-height: 85px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #A9927D;
+}
+
+.mettolmeddig {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CEC3B8;
+}
+
+.mettolmeddig > input {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 1500px;
+    border: 2px solid #A9927D;
+}
+
+.mettolmeddig > button {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    transition: 1s;
+    border: 2px solid #A9927D;
+}
+
+.generalas > button {
+    margin-top: 10px;
+    height: 60px;
+    width: 130px;
+    border-radius: 20px;
+    border: 2px solid #A9927D;
+    transition: 1s;
+}
+
+.generalas > button:hover, .mettolmeddig > button:hover {
+    background-color: #d8bba0;
+}
+
+
+.generaltszam > h3 {
+    font-size: 140%;
+    color: #CEC3B8;
+}
+
+.elozoszamok > h3 {
+    font-size: 140%;
+    color: #CEC3B8;
+}
+
+
+#genszam {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.generaltszam {
+    display: inline-block;
+}
+
+textarea {
+    resize: none;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.cp > p {
+    text-align: right;
+    margin-right: 15px;
+    color: #CEC3B8;
+}

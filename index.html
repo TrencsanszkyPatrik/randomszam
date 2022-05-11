@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random szám</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <center>
+        <div class="egesz">
+            <div class="fejlec">
+                <h1>Random számgenerátor!</h1>
+            </div>
+            <div class="kontent">
+                <div class="mettolmeddig">
+                    <h2>Adj meg egy számot, amely közt szeretnél egy random számot</h2>
+                    <button id="elvetel" onclick="(elvesz())">-</button>
+                    <input id="szamok" type="text" value="10">
+                    <button id="hozzadd" onclick="hozzaadd()">+</button>
+                </div>
+                <div class="generalas">
+                    <button id="gen" onclick="generalas()">Generálás</button>
+                </div>
+                <div class="generaltszam">
+                    <h3>A generált szám: <br> <span id="genszam"></span></h3>
+                </div>
+                <div class="elozoszamok">
+                    <h3>Előző számok:</h3>
+                    <textarea name="" id="generaltszamok" cols="30" rows="8" ></textarea>
+                </div>
+                <div class="cp">
+                    <p>@JustPatriick</p>
+                </div>
+            </div>
+        </div>
+
+    </center>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
